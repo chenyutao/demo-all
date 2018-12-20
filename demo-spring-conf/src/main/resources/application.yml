@@ -1,0 +1,4 @@
+server:
+  port: 8082
+  context-path: / # 访问路径
+
