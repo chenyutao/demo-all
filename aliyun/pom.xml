@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>pers.tao.demo</groupId>
+    <artifactId>aliyun</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <!--core-->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+            <version>4.2.4</version>
+        </dependency>
+        <!--关系型数据库-->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-rds</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+        <!--kv-->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-r-kvstore</artifactId>
+            <version>2.0.4</version>
+        </dependency>
+        <!--MongoDb-->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-dds</artifactId>
+            <version>2.0.3</version>
+        </dependency>
+        <!--消息队列-->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-ons</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+        <!--HBase-->
+        <dependency>
+            <groupId>com.aliyun.hbase</groupId>
+            <artifactId>alihbase-client</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+        <!--apache HBase-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.hbase</groupId>-->
+            <!--<artifactId>hbase-client</artifactId>-->
+            <!--<version>2.1.1</version>-->
+        <!--</dependency>-->
+
+    </dependencies>
+
+
+</project>
